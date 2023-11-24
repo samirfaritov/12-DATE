@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.conteiner {
+    width: 100%;
+    height: 100vh;
+    background-color: #ccc; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.conteiner .newYear {
+    width: 470px;
+    height: 180px;
+    border: 1px solid #000;
+    position: relative;
+}
+
+.conteiner .newYear h1 {
+    text-align: center;
+    color: red;
+}
+
+.conteiner .newYear .timer {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .conteiner .newYear .timer .item {
+    width: 102px;
+    height: 120px;
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+  font-weight: 300;
+
+  }
+
+  .conteiner .newYear .p {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    gap: 95px;
+    top: 150px;
+  }
+
+  .conteiner .newYear .p1 {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    gap: 95px;
+    top: 140px;
+  }
+  .conteiner .newYear .p2 {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    gap: 95px;
+    top: 140px;
+  }
+  .conteiner .newYear .p3 {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    gap: 95px;
+    top: 130px;
+  }
